@@ -64,6 +64,6 @@ Based on Task1 and 2, Develop an end-point that accepts following fields in POST
 
 <pre>
 {
-    "auth-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXNzd29yZCI6InBhc3N3b3JkIiwicGhvbmVfbnVtYmVyIjoiMDExMTk0OTQwOTgifQ.PQB1w5YvlQ73vYo4se96CVcyDB4q_I7Okl0dsZQUvvI",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXNzd29yZCI6InBhc3N3b3JkIiwicGhvbmVfbnVtYmVyIjoiMDExMTk0OTQwOTgifQ.PQB1w5YvlQ73vYo4se96CVcyDB4q_I7Okl0dsZQUvvI",
 }
 </pre>
