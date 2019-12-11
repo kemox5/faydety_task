@@ -10,7 +10,7 @@
 </p>
 
 
-<p>
+<p align="center">
 <img src="http://www.faydety.com/img/logo.png" alt="">
 </p>
 
