@@ -32,7 +32,7 @@ class User extends Authenticatable
             'phone_number' => 'required|unique:users|digits:11|starts_with:010,011,012,015',
             'gender' => 'required|in:male,female',
             'birthdate' => 'required|date|date_format:Y-m-d|before:today',
-            'avatar' => 'required|image',
+            'avatar' => 'required',
             'email' => 'nullable|email|unique:users',
         ];
     }

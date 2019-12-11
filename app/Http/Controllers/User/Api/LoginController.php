@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
+
     public function encode()
     {
         $validate = ApiValidator::validate(User::encodeRules());
@@ -19,7 +20,7 @@ class LoginController extends Controller
         } else {
             $data = request()->all('password', 'phone_number');
             $token = JwtLibrary::encode($data);
-            return $token;
+            return response(['data' => $token], 200);
         }
     }
 
